@@ -13,6 +13,8 @@ public class CarImpl implements CarDao {
         
         cars.add(0,"람보르기니");
         cars.add(1,"포르쉐");
+        cars.add(2,"티코");
+        cars.add(3,"마티즈");
         
         for (String c : cars) {
 			System.out.println(c);
